@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./shared/logo.svg";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 function Nav() {
+  const [burgerClick, setBurgerClick] = useState(false);
+
   return (
     <>
       <div>
@@ -11,16 +13,44 @@ function Nav() {
           <div>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive ? "border-b-black border-2" : null
+                  }
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <Link to="/destination">Destination</Link>
+                <NavLink
+                  to="/destination"
+                  className={({ isActive }) =>
+                    isActive ? "border-b-black border-2" : null
+                  }
+                >
+                  Destination
+                </NavLink>
               </li>
               <li>
-                <Link to="/crew">Crew</Link>
+                <NavLink
+                  to="/crew"
+                  className={({ isActive }) =>
+                    isActive ? "border-b-black border-2" : null
+                  }
+                >
+                  Crew
+                </NavLink>
               </li>
               <li>
-                <Link to="/Technology">Technology</Link>
+                <NavLink
+                  to="/Technology"
+                  className={({ isActive }) =>
+                    isActive ? "border-b-black border-2" : null
+                  }
+                >
+                  Technology
+                </NavLink>
               </li>
             </ul>
           </div>
