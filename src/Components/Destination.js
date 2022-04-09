@@ -7,7 +7,6 @@ function Destination({ destination, errorMsg, fetchDestination }) {
 
   useEffect(() => {
     fetchDestination();
-    console.log(destination);
   }, []);
 
   const clickHandler = (e) => {
