@@ -14,7 +14,7 @@ function Crew({ crew, fetchCrew }) {
   };
 
   return (
-    <div>
+    <div className="bg-crew-mobile md:bg-crew-tablet lg:bg-crew-desktop text white">
       <div>
         <span>02</span>
         <h2>MEET YOUR CREW</h2>

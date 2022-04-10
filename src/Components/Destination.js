@@ -14,7 +14,7 @@ function Destination({ destination, errorMsg, fetchDestination }) {
   };
 
   return (
-    <div>
+    <div className="bg-destination-mobile md:bg-destination-tablet lg:bg-destination-desktop text-white">
       <span>01</span>
       <h2> PICK YOUR DESTINATION </h2>
       <div>

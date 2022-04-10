@@ -14,7 +14,7 @@ function Tehcnology({ technology, fetchTechnology }) {
   };
 
   return (
-    <div>
+    <div className="bg-technology-mobile md:bg-technology-tablet lg:bg-technology-desktop text-white">
       <div>
         <span>03</span>
         <h2>SPACE LAUNCH 101</h2>

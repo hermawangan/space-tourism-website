@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
+    <div className=" bg-home-mobile md:bg-home-tablet lg:bg-home-desktop h-screen">
       <div>
         <h4>So, you want to travel to </h4>
         <h1>SPACE</h1>
