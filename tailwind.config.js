@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         neutral: {
           whiteblur: "rgba(255,255,255,0.04)",
+          lightpurple: "#D0D6F9",
         },
       },
       backgroundImage: {

@@ -5,19 +5,19 @@ function NavLinks() {
   const [active, setActive] = useState("Home");
   return (
     <>
-      <ul className="md:flex items-center md:justify-around h-full text-white lg:w-1/2 font-sm lg:ml-20">
+      <ul className="md:flex items-center md:justify-around h-full text-white lg:w-[542px] font-sm lg:ml-20">
         <li
           className={`${
             active === "Home"
               ? "border-r-2 md:border-b-2 md:border-b-white border-r-white md:border-r-0"
               : null
-          } my-8 md:py-5 hover:md:border-b-2 hover:border-r-2 hover:md:border-r-0 hover:opacity-50`}
+          } my-8 md:py-8 hover:md:border-b-2 hover:border-r-2 hover:md:border-r-0 hover:opacity-50`}
         >
           <NavLink
             to="/"
             className={({ isActive }) => (isActive ? setActive("Home") : null)}
           >
-            <span>00</span> HOME
+            <span className="md:hidden lg:contents">00</span> HOME
           </NavLink>
         </li>
         <li
@@ -25,7 +25,7 @@ function NavLinks() {
             active === "Destination"
               ? "border-r-2 md:border-b-2 md:border-b-white border-r-white md:border-r-0"
               : null
-          } my-8 md:py-5 hover:md:border-b-2 hover:border-r-2 hover:opacity-50 hover:md:border-r-0 `}
+          } my-8 md:py-8 hover:md:border-b-2 hover:border-r-2 hover:opacity-50 hover:md:border-r-0 `}
         >
           <NavLink
             to="/destination"
@@ -33,7 +33,7 @@ function NavLinks() {
               isActive ? setActive("Destination") : null
             }
           >
-            <span>01</span> DESTINATION
+            <span className="md:hidden lg:contents">01</span> DESTINATION
           </NavLink>
         </li>
         <li
@@ -41,13 +41,13 @@ function NavLinks() {
             active === "Crew"
               ? "border-r-2 md:border-b-2 md:border-b-white border-r-white md:border-r-0"
               : null
-          } my-8  md:py-5 hover:md:border-b-2 hover:border-r-2 hover:opacity-50 hover:md:border-r-0 `}
+          } my-8  md:py-8 hover:md:border-b-2 hover:border-r-2 hover:opacity-50 hover:md:border-r-0 `}
         >
           <NavLink
             to="/crew"
             className={({ isActive }) => (isActive ? setActive("Crew") : null)}
           >
-            <span>02</span> CREW
+            <span className="md:hidden lg:contents">02</span> CREW
           </NavLink>
         </li>
         <li
@@ -55,7 +55,7 @@ function NavLinks() {
             active === "Technology"
               ? "border-r-2 md:border-b-2 md:border-b-white border-r-white md:border-r-0"
               : null
-          } my-8 md:py-5 hover:md:border-b-2 hover:border-r-2 hover:opacity-50 hover:md:border-r-0`}
+          } my-8 md:py-8 hover:md:border-b-2 hover:border-r-2 hover:opacity-50 hover:md:border-r-0`}
         >
           <NavLink
             to="/Technology"
@@ -63,7 +63,7 @@ function NavLinks() {
               isActive ? setActive("Technology") : null
             }
           >
-            <span>03</span> TECHNOLOGY
+            <span className="md:hidden lg:contents">03</span> TECHNOLOGY
           </NavLink>
         </li>
       </ul>

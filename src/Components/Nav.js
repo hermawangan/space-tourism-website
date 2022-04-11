@@ -14,8 +14,8 @@ function Nav() {
 
   return (
     <>
-      <div className="absolute w-full h-full md:flex   justify-between md:items-center md:h-24 lg:mt-10">
-        <div className="flex justify-between items-center md:items-start m-6 ">
+      <div className="absolute w-full h-full md:flex  justify-between md:items-center md:h-24 lg:mt-10  ">
+        <div className="flex justify-between items-center m-6 md:m-0 md:ml-10  ">
           <div className="h-10 w-10 border-1 border-white rounded-full flex justify-center items-center">
             <img src={logo} alt="logo" className="w-10" />
           </div>
@@ -44,9 +44,9 @@ function Nav() {
           </div>
         ) : null}
 
-        <div className="border-t-2 border-white h-1 md:w-40 hidden md:block absolute left-20 lg:left-40 z-20 lg:w-72 opacity-25"></div>
+        <div className="border-t-2 border-white h-1 hidden lg:block absolute  z-20 lg:w-[400px] opacity-25 left-40"></div>
 
-        <nav className="hidden md:block md:m-6  md:w-2/3  h-16 bg-neutral-whiteblur backdrop-blur-lg lg:w-2/3 z-10  ">
+        <nav className="hidden md:block  md:w-2/3  h-24 bg-neutral-whiteblur backdrop-blur-lg lg:w-[830px] z-10  ">
           <NavLinks />
         </nav>
       </div>
