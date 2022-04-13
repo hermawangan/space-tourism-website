@@ -38,9 +38,9 @@ function Destination({ destination, errorMsg, fetchDestination }) {
         </div>
       </div>
 
-      <div className="lg:mt-[310px] lg:w-[445px] lg:h-[445px] lg:mr-[163px]">
-        <div className="flex justify-center lg:justify-start">
-          <ul className="flex justify-around mt-[26px] text-neutral-lightpurple text-[14px] leading-[17px] tracking-[2.36px] w-[237.5px] h-7 md:w-[285.5px] md:h-9 md:text-[16px] md:leading-[19px] md:tracking-[2.7px] lg:mt-0">
+      <div className="lg:mt-[310px] lg:w-[445px] lg:h-[445px] lg:mr-[163px] ">
+        <div className="flex justify-center lg:justify-start  ">
+          <ul className="flex justify-around mt-[26px] text-neutral-lightpurple text-[14px] leading-[17px] tracking-[2.36px] w-[237.5px] h-7 md:w-[285.5px] md:h-9 md:text-[16px] md:leading-[19px] md:tracking-[2.7px] lg:mt-0 ">
             <li
               id="Moon"
               onClick={clickHandler}
