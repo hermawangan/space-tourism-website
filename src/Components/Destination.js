@@ -17,8 +17,8 @@ function Destination({ destination, errorMsg, fetchDestination }) {
   return (
     <div className="bg-destination-mobile md:bg-destination-tablet lg:bg-destination-desktop text-white flex flex-col items-center text-center  lg:flex-row lg:justify-evenly lg:text-left ">
       <div className="lg:mb-[110px] md:w-full">
-        <div className=" flex mt-[88px] text-[16px] leading-[19px] tracking-[2.7px]  md:w-full md:justify-start md:pl-[76.5px] md:mt-[136px] md:text-[20px] md:leading-[24px] md:tracking-[3.375px] lg:pl-0 lg:mt-[212px] lg:text-[28px] lg:leading-[44px] lg:tracking-[4.725px]  lg:pl-[166.5px] ">
-          <span className="mr-[18px] font-bold">01</span>
+        <div className=" flex mt-[88px] text-[16px] leading-[19px] tracking-[2.7px]  md:w-full md:justify-start md:pl-[76.5px] md:mt-[136px] md:text-[20px] md:leading-[24px] md:tracking-[3.375px]  lg:mt-[212px] lg:text-[28px] lg:leading-[44px] lg:tracking-[4.725px]  lg:pl-[166.5px] ">
+          <span className="mr-[18px] opacity-25">01</span>
           <h2> PICK YOUR DESTINATION </h2>
         </div>
 

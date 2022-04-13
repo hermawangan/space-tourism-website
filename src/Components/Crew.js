@@ -50,8 +50,8 @@ function Crew({ crew, fetchCrew }) {
               className={`${
                 name === "Douglas Hurley"
                   ? "border-2 border-white opacity-100"
-                  : null
-              } rounded-full h-2.5 w-2.5 bg-white opacity-20 mr-4  `}
+                  : "opacity-[.17]"
+              } rounded-full h-2.5 w-2.5 bg-white mr-4 hover:opacity-50 `}
             ></button>
             <button
               id="Mark Shuttleworth"
@@ -59,8 +59,8 @@ function Crew({ crew, fetchCrew }) {
               className={`${
                 name === "Mark Shuttleworth"
                   ? "border-2 border-white opacity-100"
-                  : null
-              } rounded-full h-2.5 w-2.5 bg-white opacity-20 mr-4  `}
+                  : "opacity-[.17]"
+              } rounded-full h-2.5 w-2.5 bg-white hover:opacity-50 mr-4  `}
             ></button>
             <button
               id="Victor Glover"
@@ -68,8 +68,8 @@ function Crew({ crew, fetchCrew }) {
               className={`${
                 name === "Victor Glover"
                   ? "border-2 border-white opacity-100"
-                  : null
-              } rounded-full h-2.5 w-2.5 bg-white opacity-20 mr-4 `}
+                  : "opacity-[.17]"
+              } rounded-full h-2.5 w-2.5 bg-white hover:opacity-50 mr-4 `}
             ></button>
             <button
               id="Anousheh Ansari"
@@ -77,8 +77,8 @@ function Crew({ crew, fetchCrew }) {
               className={`${
                 name === "Anousheh Ansari"
                   ? "border-2 border-white opacity-100"
-                  : null
-              } rounded-full h-2.5 w-2.5 bg-white opacity-20 mr-4  `}
+                  : "opacity-[.17]"
+              } rounded-full h-2.5 w-2.5 bg-white hover:opacity-50 mr-4  `}
             ></button>
           </div>
         </div>
