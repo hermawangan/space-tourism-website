@@ -46,8 +46,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/a-responsive-space-tourism-website-using-reactjs-and-tailwindcss-rkNuaJBEc)
-- Live Site URL: [Add live site URL here](https://spacetourismwebs.netlify.app/)
+- Solution URL: [Click Here to see the solution](https://www.frontendmentor.io/solutions/a-responsive-space-tourism-website-using-reactjs-and-tailwindcss-rkNuaJBEc)
+- Live Site URL: [Click here to see the live site](https://spacetourismwebs.netlify.app/)
 
 ## My process
 
